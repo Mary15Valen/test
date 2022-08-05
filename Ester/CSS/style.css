@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: cursive;
+    background: -prefix-linear-gradient(left, deeppink, hotpink, blueviolet, dodgerblue, deepskyblue);
+    background: linear-gradient(to right, deeppink, hotpink,blueviolet, dodgerblue, deepskyblue);
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: lightblue;
+}
+.text-pink {
+    color: lightpink;
+}

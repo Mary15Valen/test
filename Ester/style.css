@@ -1,0 +1,14 @@
+body {
+    background-color:lightblue;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+.text-pink {
+    color: lightpink;
+}

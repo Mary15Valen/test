@@ -1,0 +1,82 @@
+<head>
+    <meta charset="UFF-8">
+    <meta name="viewport" content="width=device-widht, initial-escale=1.0">
+    <title>ESTER</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="CSS/style.css"> 
+</head>
+ <body>
+    <div id="app">
+
+        <h1>TEST</h1>
+        <h2>¿Bulldog o Perro Marino?</h2>
+        <h2 
+            class="bg-dark text-pink"
+        >
+            Bulldog: {{ cantidadb }}
+        </h2>
+        <h2 
+            class="bg-dark text-white"
+            >
+            Perro Marino: {{ cantidadp }}
+        </h2>
+
+
+        <hr>
+
+        <h3>Escoge un lugar</h3>
+
+        <button v-on:click="agregarp">Playa</button>
+
+        <br>    <br>       
+        <button @click="agregarb" :disabled="desactivar">Centro Comercial</button>
+
+         <hr>
+
+        <h3>¿Cuál color prefieres?</h3>
+
+        <button v-on:click="agregarp">Azul</button>
+
+        <br>    <br>       
+        <button @click="agregarb" :disabled="desactivar">Rosa</button>
+
+        <hr>
+
+        <h3>¿Cuál calzado usarías?</h3>
+
+        <button v-on:click="agregarp">Cholas</button>
+
+        <br>    <br>       
+        <button @click="agregarb" :disabled="desactivar">Tacones</button>
+
+        <hr>
+
+        <h3>¿Cuál comida te gusta más?</h3>
+
+        <button v-on:click="agregarp">Perro caliente</button>
+
+        <br>    <br>       
+        <button @click="agregarb" :disabled="desactivar">Bienmesabe</button>
+
+         <hr>
+
+        <h3>¿Cuál bebida prefieres?</h3>
+
+        <button v-on:click="agregarp">Café</button>
+
+        <br>    <br>       
+        <button @click="agregarb" :disabled="desactivar">Té</button>
+
+         <hr>
+         <button @click="listo" :disabled="desactivar">Listo</button>
+
+
+    </div>   
+
+
+    <script src="main.js"></script> 
+    <script>
+        const mountedApp = app.mount('#app');
+    </script>
+ </body>
+</html>
